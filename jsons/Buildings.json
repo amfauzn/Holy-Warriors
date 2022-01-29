@@ -1,0 +1,75 @@
+[
+	{
+		"name": "Shrine",
+		"faith": 1,
+		"specialistSlots": {"Apostle": 2},
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Pyramid",
+		"replaces": "Shrine",
+		"uniqueTo": "The Maya",
+		"faith": 2,
+		"science": 2,
+		"specialistSlots": {"Apostle": 2},
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Great Shrine",
+		"cost": 100,
+		"culture": 1,
+		"faith": 10,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Shrine] in all cities", "[Faith] cost of purchasing items in cities [-15]%"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Temple",
+		"faith": 4,
+		"specialistSlots": {"Apostle": 2},
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Burial Tomb",
+		"replaces": "Temple",
+		"uniqueTo": "Egypt",
+		"maintenance": 0,
+		"faith": 4,
+		"happiness": 2,
+		"specialistSlots": {"Apostle": 2},
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"uniques": ["Doubles Gold given to enemy if city is captured"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Mud Pyramid Mosque",
+		"replaces": "Temple",
+		"uniqueTo": "Songhai",
+		"maintenance": 0,
+		"culture": 2,
+		"faith": 4,
+		"specialistSlots": {"Apostle": 2},
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Hymn House",
+		"cost": 1,
+		"faith": 10,
+		"maintenance": 10,
+		"specialistSlots": {"Apostle": 2},
+		"requiredBuilding": "Temple",
+		"uniques": ["[-25]% Food consumption by specialists [in this city]"],
+		"requiredTech": "Acoustics"
+	}
+]
