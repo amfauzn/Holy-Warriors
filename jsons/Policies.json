@@ -1,0 +1,100 @@
+[
+	{
+		"name": "Honor",
+		"era": "Ancient era",
+		"uniques": ["[+33]% Strength <vs [Barbarian] units>", "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+			"Notified of new Barbarian encampments"],
+		"policies": [
+			{
+				"name": "Warrior Code",
+				"uniques":["[2] free [Warrior] units appear", "[Faith] cost of purchasing [Melee] units [-15%]%", "Free [Great General] appears"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Discipline",
+				"uniques":["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Military Tradition",
+				"uniques":["[+50]% XP gained from combat <for [Military] units>"],
+				"requires": ["Warrior Code"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Military Caste",
+				"uniques": ["[+1 Happiness, +2 Culture] [in all cities with a garrison]"],
+				"requires": ["Discipline"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Professional Army",
+				"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", "[+1 Happiness] from every [Walls]",
+					"[+1 Happiness] from every [Castle]", "[+1 Happiness] from every [Arsenal]", "[+1 Happiness] from every [Military Base]"
+				],
+				"requires": ["Military Caste"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Honor Complete",
+				"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]", "[+4 Faith] from every [Heroic Epic]"
+					"[+66]% Production when constructing [Barracks] buildings [in all cities]", 
+					"[+66]% Production when constructing [Heroic Epic] wonders [in all cities]"]
+			}
+		]
+	},
+	{
+		"name": "Autocracy",
+		"era": "Industrial era",
+		"uniques": ["[-33]% maintenance costs <for [All] units>", "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+			"Incompatible with [Order]", "Incompatible with [Freedom]"],
+		"policies": [
+			{
+				"name": "Populism",
+				"uniques": ["[+25]% Strength <for [Wounded] units>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Militarism",
+				"uniques": ["[Faith] cost of purchasing [All] units [-33]%"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Fascism",
+				"uniques": ["Quantity of strategic resources produced by the empire +[100]%", "[+2] Movement <for [Great General] units>"],
+				"requires": ["Populism","Militarism"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Police State",
+				"uniques": ["[+3 Happiness] from every [Courthouse]", "[+100]% Production when constructing [Courthouse] buildings [in all cities]"],
+				// There are also some uniques regarding espoinage, which as of this writing is not yet implemented
+				"requires": ["Militarism"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Total War",
+				"uniques": ["[+25]% Production when constructing [Military] units [in all cities]", "New [Military] units start with [15] Experience [in all cities]"],
+				"requires": ["Police State","Fascism"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Autocracy Complete",
+				"uniques": ["+[25]% attack strength to all [Military] units for [50] turns",
+					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+				]
+			}
+		]
+	}
+]
