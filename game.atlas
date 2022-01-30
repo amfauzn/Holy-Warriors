@@ -18,6 +18,20 @@ BuildingIcons/Hymn House
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Holy Seaport
+  rotate: false
+  xy: 436, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Holy Stable
+  rotate: false
+  xy: 544, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Caravels
   rotate: false
   xy: 4, 112
@@ -76,70 +90,70 @@ UnitIcons/Great Wars Infantry
   index: -1
 UnitIcons/Horsemen
   rotate: false
-  xy: 436, 4
+  xy: 544, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Infantery
   rotate: false
-  xy: 544, 112
+  xy: 652, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Longswordsmen
   rotate: false
-  xy: 544, 4
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Machines Gun
   rotate: false
-  xy: 652, 112
+  xy: 760, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Marines
   rotate: false
-  xy: 652, 4
+  xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Musketmen
   rotate: false
-  xy: 760, 113
+  xy: 868, 113
   size: 100, 99
   orig: 100, 99
   offset: 0, 0
   index: -1
 UnitIcons/Pikemen
   rotate: false
-  xy: 760, 5
+  xy: 868, 5
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Privateers
   rotate: false
-  xy: 868, 112
+  xy: 976, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Riflemen
   rotate: false
-  xy: 976, 112
+  xy: 1084, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Swordsmen
   rotate: false
-  xy: 1084, 112
+  xy: 1192, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
