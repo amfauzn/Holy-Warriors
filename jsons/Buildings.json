@@ -97,6 +97,7 @@
 		"name": "Holy Stable",
 		"cost": 100,
 		"isNationalWonder": true,
+		"requiredBuilding": "Stable",
 		"uniques": ["[Faith] cost of purchasing [Mounted] units [-15%]%", "Free [Horseman] appears"],
 		"requiredTech": "Horseback Riding"
 	},
@@ -113,6 +114,7 @@
 		"name": "Holy Seaport",
 		"cost": 100,
 		"isNationalWonder": true,
+		"requiredBuilding": "Seaport",
 		"uniques": ["[Faith] cost of purchasing [Water] units [-15%]%", "Free [Galleass] appears"],
 		"requiredTech": "Navigation"
 	}
