@@ -79,7 +79,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["[+10]% [Food] [in all cities]", "[Faith] cost of purchasing [Ranged] units [-15%]%", "Free [Composite Bowman] appears"],
+		"uniques": ["[+10]% [Food] [in all cities]", "[Faith] cost of purchasing [Ranged] units [-15]%", "Free [Composite Bowman] appears"],
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
@@ -97,8 +97,7 @@
 		"name": "Holy Stable",
 		"cost": 100,
 		"isNationalWonder": true,
-		"requiredBuilding": "Stable",
-		"uniques": ["[Faith] cost of purchasing [Mounted] units [-15%]%", "Free [Horseman] appears"],
+		"uniques": ["[Faith] cost of purchasing [Mounted] units [-15]%", "Free [Horseman] appears"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -107,15 +106,14 @@
 		"maintenance": 3,
 		"requiredBuilding": "Harbor",
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]", "Must be next to [Coast]", 
-			"[+15]% Production when constructing [{Civilian} {Water}] units [in this city]"],
+			"[+15]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Navigation"
 	},
 	{
 		"name": "Holy Seaport",
 		"cost": 100,
 		"isNationalWonder": true,
-		"requiredBuilding": "Seaport",
-		"uniques": ["[Faith] cost of purchasing [Water] units [-15%]%", "Free [Galleass] appears"],
+		"uniques": ["[Faith] cost of purchasing [Water] units [-15]%", "Free [Galleass] appears"],
 		"requiredTech": "Navigation"
 	}
 ]
