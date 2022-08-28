@@ -24,6 +24,6 @@
 	{
 		"name": "Holy Warriors",
 		"type": "Follower",
-		"uniques": ["[+1 Faith] from every [Barracks]", "[+1 Faith] from every [Armory]", "[+1 Faith] from every [Military Academy]"]
+		"uniques": ["[+1 Faith] from every [Barracks]", "[+1 Faith] from every [Armory]", "[+3 Faith] from every [Military Academy]"]
 	}
 ]

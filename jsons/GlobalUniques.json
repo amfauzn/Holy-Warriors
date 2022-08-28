@@ -1,6 +1,9 @@
 {
     "name": "Global uniques", 
     "uniques": [
-		"May buy [Military] units with [Faith] for [2] times their normal Production cost <before the [Information era]>"
+		"May buy [Military] units with [Faith] for [2] times their normal Production cost", 
+		"[+1 Faith] per [5] population [in all cities]", 
+		"[+1 Faith] per [5] population [in all cities] <starting from the [Renaissance era]>", 
+		"[+3 Faith] per [5] population [in all cities] <starting from the [Atomic era]>", 
 	]
 }
