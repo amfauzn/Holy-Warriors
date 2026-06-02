@@ -29,7 +29,7 @@
 			},
 			{
 				"name": "Military Tradition",
-				"uniques":["[+15]% Production when constructing [Melee] units [in all cities]", "[Faith] cost of purchasing [Melee] units [-15%]%", 
+				"uniques":["[+15]% Production when constructing [Melee] units [in all cities]", "[Faith] cost of purchasing [Melee] units [-15]%",
 					"[+50]% XP gained from combat <for [Military] units>"],
 				"requires": ["Warrior Code"],
 				"row": 2,
@@ -91,7 +91,7 @@
 			},
 			{
 				"name": "Fascism",
-				"uniques": ["Quantity of strategic resources produced by the empire +[100]%", "[+2] Movement <for [Great General] units>"],
+				"uniques": ["[+100]% [Strategic] resource production", "[+2] Movement <for [Great General] units>"],
 				"requires": ["Populism","Militarism"],
 				"row": 2,
 				"column": 3
@@ -106,7 +106,7 @@
 			},
 			{
 				"name": "Total War",
-				"uniques": ["[+25]% Production when constructing [Military] units [in all cities]", "New [Military] units start with [15] Experience [in all cities]"],
+				"uniques": ["[+25]% Production when constructing [Military] units [in all cities]", "New [Military] units start with [15] XP [in all cities]"],
 				"requires": ["Police State","Fascism"],
 				"row": 3,
 				"column": 4

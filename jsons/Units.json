@@ -120,7 +120,7 @@
 		"rangedStrength": 7,
 		"cost": 30,
 		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
+		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
@@ -538,7 +538,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Unbuildable"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit" 
 	},
 	{
@@ -552,7 +552,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Will not be displayed in Civilopedia"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit" 
 	},
 	{
@@ -566,7 +566,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought", "Unbuildable"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
 	},
@@ -860,7 +860,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "Unbuildable"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Unbuildable"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -875,7 +875,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "Will not be displayed in Civilopedia"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Will not be displayed in Civilopedia"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -1509,7 +1509,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>", "Unbuildable"],
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>", "Unbuildable"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1523,7 +1523,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>", "Will not be displayed in Civilopedia"],
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>", "Will not be displayed in Civilopedia"],
 		"attackSound": "shipguns"
 	},
 
@@ -1537,7 +1537,7 @@
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked", "Unbuildable"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "Unbuildable"],
 		"attackSound": "shot"
 	},
 	{
@@ -1550,7 +1550,7 @@
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked", "Will not be displayed in Civilopedia"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "Will not be displayed in Civilopedia"],
 		"attackSound": "shot"
 	},
 	{
@@ -1581,8 +1581,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
-			"Unbuildable"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "Unbuildable"],
 		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
 	},
@@ -1624,7 +1623,7 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Unbuildable", "Never appears as a Barbarian unit"],
+		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", "Unbuildable", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
@@ -1692,5 +1691,5 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Helicopter] units>", "Unbuildable", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
-	},
+	}
 ]
