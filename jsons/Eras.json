@@ -17,20 +17,6 @@
         "embarkDefense": 10,
         "startPercent": 50,
         "citySound": "cityIndustrial",
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-        },
         "iconRGB": [63, 81, 182]
     },
     {
@@ -52,20 +38,6 @@
         "embarkDefense": 13,
         "startPercent": 65,
         "citySound": "cityModern",
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-        },
         "iconRGB": [33, 150, 243],
 		"uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
@@ -91,20 +63,6 @@
         "embarkDefense": 16,
         "startPercent": 65,
         "citySound": "cityAtomic",
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-        },
         "iconRGB": [0, 150, 136],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
@@ -134,21 +92,6 @@
         // But where is the modularity? The excluding of very specific wonders? That is no fun.
         // So we just write down the entire long list (sorted by era!) instead.
         "citySound": "cityInformation",
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-
-        },
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
@@ -177,21 +120,6 @@
         "embarkDefense": 25,
         "startPercent": 80,
         "citySound": "cityFuture",
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-
-        },
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
